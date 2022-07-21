@@ -1,0 +1,177 @@
+/************************** TAG SELECTORS ***************************************/
+body {
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+  color: white;
+  background: #241d33;
+
+}
+
+
+.top-container{
+  background: rgb(36, 29, 51);
+  padding-top: 100px;
+  position: relative;
+
+}
+.top-cloud{
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: -20px;
+  left: 200px;
+}
+
+.img-mountain{
+  position: absolute;
+  bottom: 40px;
+  left: 340px;
+  display: none;
+}
+
+.img{
+  color: white;
+  width: 25%;
+
+}
+.flow1, .flow2, .flow3{
+  float: left;
+  margin: 20px auto;
+
+}
+.intro{
+  width: 30%;
+  margin: 20px auto;
+}
+
+h1{
+    font-size: 562.5%;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66bfbf;
+  }
+
+
+h2{
+
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+
+h3{
+  color: #11999E;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 30px;
+}
+
+hr{
+  width: 4%;
+  margin: 100px auto;
+  border: dotted lightgrey 6px;
+  border-bottom: none;
+
+}
+
+p{
+  font-family: 'Source Code Pro', monospace;
+  font-style: italic;
+  line-height: 2;
+}
+
+.text-wrapper{
+  position: relative;
+  color: inherit;
+}
+
+.contact-msg{
+  width: 50%;
+  margin: 50px auto;
+}
+
+.btn{
+  margin: 50px auto;
+}
+
+.footer-link{
+  color: #11999E;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.rainbow-box{
+  background-color: #302244;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  height: auto;
+}
+
+.btn{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: auto;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container{
+  margin: 100px auto 0;
+  background: #E4F9F5;
+  padding: 50px 0 20px;
+}
+
+/*********************************** FOOTER **************************/
+
+#gate-sem{
+  color: red;
+}
+
+a{
+  color: #11cdd4;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: gold;
+}
+
+#copyright{
+margin: 5px;
+color: maroon;
+font-weight: 600;
+}
+/********************************* CLASS SELECTOR***********************/
